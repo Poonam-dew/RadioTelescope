@@ -1,0 +1,49 @@
+.team-member {
+    background-color: #ffffff3f;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:white;
+}
+
+.team-member-role {
+    font-size: 0.9rem;
+    color:white;
+}
+
+.team-member-email {
+    font-size: 0.85rem;
+    color:white;
+}
+
+.team-member-email a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.team-member-email a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+}

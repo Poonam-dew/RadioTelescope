@@ -1,0 +1,50 @@
+.team-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+    text-align: center;
+}
+h2{
+    color:white;
+  }
+
+.team-page-title {
+    font-size: 2rem;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.team-section {
+    margin: 20px 0;
+}
+
+.team-title {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+.profile-link {
+    /* color: blue; */
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}

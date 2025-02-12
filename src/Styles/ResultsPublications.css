@@ -1,0 +1,104 @@
+.results-publications {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #222;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-type {
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #e7e1e1;
+  margin: 8px 0;
+}
+.head{
+  color:white;
+}
+.date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.more-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.more-link:hover {
+  text-decoration: underline;
+}
+
+.resources-section {
+  margin-top: 30px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  min-height: 50px;
+  text-align: center;
+}
+
+.resources-section .head {
+  font-size: 22px;
+  color: #f3f2f2;
+  margin-bottom: 10px;
+}
+
+.resource-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-list li {
+  margin: 8px 0;
+}
+
+.resource-list a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.resource-list a:hover {
+  text-decoration: underline;
+}

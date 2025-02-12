@@ -1,0 +1,70 @@
+.scientific-history {
+  
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+.carousel .slide img {
+  border-radius: 10px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.legend {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-description {
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.info-box {
+  margin: 30px auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+.info-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.info-box h3 {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #ff9900;
+}
+
+.info-box p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
