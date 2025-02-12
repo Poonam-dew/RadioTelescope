@@ -61,7 +61,7 @@ const TeamPage = () => {
                 { name: 'Manthan', role: 'Founding member', profile: 'bob@university.edu' },
                 { name: 'Tushar', role: 'Founding member', profile: 'bob@university.edu' },
                 { name: 'Himanshu Grover', role: 'Coordinator',image: require('../Assets/Himanshu.jpg'), profile: 'https://www.linkedin.com/in/-himanshugrover-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG7aFCJrPSc%2Bn6KRiWZJtLA%3D%3D' },
-                { name: 'Adya Shukla', role: 'Member', profile: 'bob@university.edu' },
+                { name: 'Adya Shukla', role: 'Member',image: require('../Assets/Adya.jpg') , profile: 'bob@university.edu' },
                 { name: 'Krish Shah', role: 'Project Coordinator',image: require('../Assets/Krish.jpg'), profile: 'https://www.linkedin.com/in/k-shah?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BKDRrR%2FaRcWy8TetFtNy6w%3D%3D' },
                 { name: 'Kaustav Bhattacharjee', role: 'Mechanical Lead',image: require('../Assets/Kaustav.jpg'), profile: 'https://www.linkedin.com/in/kaustav-b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Birs6DhwyTQum5OHoiSnTAg%3D%3D' },
                 { name: 'Arutkeerthi', role: 'Member', profile: 'bob@university.edu' },
