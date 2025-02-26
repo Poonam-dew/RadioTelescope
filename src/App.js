@@ -9,13 +9,15 @@ import EventPage from './Pages/EventPage.js';
 import StarryBackground from './Pages/StarryBackground.js';
 import ResultsPublications from './Pages/ResultsPublications.js';
 import ScientificHistory from './Pages/ScientificHistory.js';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TelescopeWeHave from './Pages/TelescopesWeHave.js';
 
 function App() {
   return (
-    <div className="App">
+    
+           <div className="App">
+           
       <Navbar />
       
       <div className="content"> {/* This ensures the content expands and pushes the footer down */}
@@ -31,7 +33,10 @@ function App() {
       </div>
       
       <Footer />
+     
     </div>
+   
+ 
   );
 }
 
